@@ -1,0 +1,41 @@
+header {
+background-color:aliceblue;
+padding: 20px;
+text-align: center;
+font-size: 30px;
+color: green
+}
+
+/* .h1 {
+    font-size: 25px;
+    color: red;
+    text-align: center;
+} */
+
+nav li {
+    display: inline;
+    margin:0 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black
+}
+
+nav a:hover {
+   color:blue;
+   text-decoration: underline;
+}
+
+.section1-content {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 40px; 
+}
+
+.section1-content img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
